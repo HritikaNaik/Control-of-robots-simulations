@@ -30,10 +30,6 @@ detections = step(detector)
 sampleTime = 0.05;             % Sample time [s]
 % Initialize time, input, and pose arrays
 tVec = 0:sampleTime:1.5;         % Time array
-vxRef = zeros(size(tVec));      % Reference x speed
-vyRef = zeros(size(tVec));  % Reference y speed
-wRef = 0.75*ones(size(tVec));   % Reference angular speed
-ref = [vxRef;vyRef;wRef];
 
 %% Simulation loop
 r = rateControl(1/sampleTime);
