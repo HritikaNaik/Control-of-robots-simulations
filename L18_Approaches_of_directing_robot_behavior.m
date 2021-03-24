@@ -27,10 +27,6 @@ sampleTime = 0.05;             % Sample time [s]
 initPose = [4; 1; pi/3];        % Initial pose (x y theta)
 % Initialize time, input, and pose arrays
 tVec = 0:sampleTime:1.5;         % Time array
-vxRef = zeros(size(tVec));      % Reference x speed
-vyRef = zeros(size(tVec));  % Reference y speed
-wRef = 0.75*ones(size(tVec));   % Reference angular speed
-ref = [vxRef;vyRef;wRef];
 pose = zeros(3,numel(tVec)); % Pose matrix
 pose(:,1) = initPose;
 dist = [0,0]; % it will store whether or not an object is detected and the original distance to it
