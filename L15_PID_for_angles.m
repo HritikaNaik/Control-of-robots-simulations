@@ -28,10 +28,6 @@ sampleTime = 0.05;             % Sample time [s]
 initPose = [4*rand; 4*rand; pi/3]        % Initial pose (x y theta)
 % Initialize time, input, and pose array
 tVec = 0:sampleTime:5;         % Time array
-vxRef = zeros(size(tVec));      % Reference x speed
-vyRef = zeros(size(tVec));  % Reference y speed
-wRef = 0.75*ones(size(tVec));   % Reference angular speed
-ref = [vxRef;vyRef;wRef];
 pose = zeros(3,numel(tVec));  % Pose matrix
 pose(:,1) = initPose;
 Thet = 0; theta_old = 0;  %For the Integral and derivative terms of the PID regulator
