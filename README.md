@@ -1,6 +1,6 @@
 # Control-of-mobile-robots-simulations
 Simulations I produced while learning to control mobile robots
 
-While following along the Youtube series by Professor Egerstedt of GeorgiaTech on the Control of Mobile Robots I have made these to practice and explore the concepts I learnt. 
+I have made these programs to practice and explore the concepts I learnt, wWhile following along the Youtube series by Professor Egerstedt of Georgia Tech on the Control of Mobile Robots  
 
-The Mobile Robotics Simulation Toolbox along with standard Matlab toolboxes have been used in this.
+I have used the Mobile Robotics Simulation Toolbox along with standard Matlab toolboxes.
